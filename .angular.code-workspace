@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": ".angular",
+			"path": "../../../portfolio/.angular"
+		},
+		{
+			"name": "Portfolio",
+			"path": "."
+		},
+		{
+			"name": ".vscode",
+			"path": "../../../portfolio/.vscode"
+		},
+		{
+			"name": "node_modules",
+			"path": "../../../portfolio/node_modules"
+		},
+		{
+			"name": "src",
+			"path": "../../../portfolio/src"
+		}
+	],
+	"settings": {}
+}
