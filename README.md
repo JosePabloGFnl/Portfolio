@@ -16,14 +16,8 @@ Afterwards, install Angular CLI with:
 npm install -g @angular/cli
 ```
 
-Create the workspace for the app:
-
-``` CMD Commands
-ng new portfolio
-```
-
 Lastly, to view the app at any time, run the following:
 ``` CMD Commands
 cd portfolio
-ng serve --open to view the app.
+ng serve --open
 ```
