@@ -1,3 +1,18 @@
-<h2>{{skill.name | uppercase}} Details</h2>
-<div><span>id: </span>{{skill.id}}</div>
-<div><span>name: </span>{{skill.name}}</div>
+<h2>My Skills</h2>
+<ul class="skill">
+    <li *ngFor="let skill of skills">
+        <button [class.selected]="skill === selectedSkill" type = "button" (click)="onSelect(skill)">
+            <span class="badge">{{skill.id}}</span>
+            <span class="name">{{skill.name}}</span>
+        </button>
+    </li>
+</ul>
+
+<div *ngIf="selectedSkill">
+    <h2>{{selectedSkill.name | uppercase}} Details</h2>
+    <div>id: {{selectedSkill.id}}</div>
+    <div>
+        <label for="skill-name">Skill name:</label>
+        <input id="skill-name" [(ngModel)] = "selectedSkill.name" placeholder="name">
+    </div>
+</div>

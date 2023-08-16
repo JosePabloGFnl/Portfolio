@@ -1,6 +1,6 @@
-import { Skill } from './skill';
+import { skill } from './skill';
 
-export const SKILLS: Skill[] = [
+export const SKILLS: skill[] = [
   { id: 1, name: 'Python' },
   { id: 2, name: 'Julia' },
   { id: 3, name: 'MySQL' },

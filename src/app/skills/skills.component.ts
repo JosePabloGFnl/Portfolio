@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { Skill } from '../skill';
+import { skill } from '../skill';
+import { SKILLS } from '../mock-skills';
 
 @Component({
   selector: 'app-skills',
@@ -7,11 +8,10 @@ import { Skill } from '../skill';
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent {
-  
-  skill: Skill = {
+  skills = SKILLS;
 
-    id: 1,
-    name: 'Python'
-
-  };
+  selectedSkill?: skill;
+  onSelect(skill: skill): void {
+    this.selectedSkill = skill;
+  }
 }
