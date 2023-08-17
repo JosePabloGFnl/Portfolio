@@ -25,3 +25,8 @@ Lastly, to view the app at any time, run the following:
 ``` CMD Commands
 ng serve --open
 ```
+
+If you would like to create a new component for the project, use the following:
+``` CMD Commands
+ng generate component some-example
+```
