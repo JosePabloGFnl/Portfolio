@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SkillsComponent } from './skills/skills.component';
 
 import { FormsModule } from '@angular/forms';
-import { SkillDetailComponent } from './skill-detail/skill-detail.component'; // <-- NgModel lives here
+import { SkillDetailComponent } from './skill-detail/skill-detail.component';
+import { MessagesComponent } from './messages/messages.component'; // <-- NgModel lives here
 
 @NgModule({
   declarations: [
     AppComponent,
     SkillsComponent,
-    SkillDetailComponent
+    SkillDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
