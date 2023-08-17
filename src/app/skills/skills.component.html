@@ -8,6 +8,8 @@
     </li>
 </ul>
 
+<app-skill-detail [skill]="selectedSkill"></app-skill-detail>
+
 <div *ngIf="selectedSkill">
     <h2>{{selectedSkill.name | uppercase}} Details</h2>
     <div>id: {{selectedSkill.id}}</div>

@@ -1,1 +1,10 @@
-<p>skill-detail works!</p>
+<div *ngIf="skill">
+
+    <h2>{{skill.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{skill.id}}</div>
+    <div>
+      <label for="skill-name">Skill name: </label>
+      <input id="skill-name" [(ngModel)]="skill.name" placeholder="name">
+    </div>
+  
+  </div>
