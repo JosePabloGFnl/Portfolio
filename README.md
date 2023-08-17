@@ -4,7 +4,7 @@
 - Node.js 18.17.1
 - Angular CLI (Command Line Interface)
 
-### cmd executions
+### cmd executions: Project initialization
 To check if your system has Node.js or the correct version of it, run the command 
 ``` CMD Commands
 node -v
@@ -26,6 +26,7 @@ Lastly, to view the app at any time, run the following:
 ng serve --open
 ```
 
+### cmd executions: Feature creation
 If you would like to create a new component for the project, use the following:
 ``` CMD Commands
 ng generate component some-example
