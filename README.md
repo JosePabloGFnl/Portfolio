@@ -30,3 +30,8 @@ If you would like to create a new component for the project, use the following:
 ``` CMD Commands
 ng generate component some-example
 ```
+
+To create a service:
+``` CMD Commands
+ng generate service some-example
+```
